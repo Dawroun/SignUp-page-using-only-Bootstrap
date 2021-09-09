@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Sign Up</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+        .form-control{
+            border: 2px solid #dadbdc;
+            border-radius: 3px;
+            min-height: 47px;
+        }
+        .form-check-input{
+            border-radius: 3px !important;
+            border: 1px solid #dadbdc !important;
+        }
+        .btn{
+            border-radius: 3px;
+        }
+        .btn-lg{
+            font-size: 1.2rem;
+            padding: 15px 20px;
+            letter-spacing: 1px;
+        }
+    </style>
+
+  </head>
+  <body class="bg-light vh-100">
+
+      <div class="container vh-100">
+          <div class="row align-items-center vh-100">
+              <div class="col-lg-5 mx-auto">
+                  <div class="bg-white p-5 rounded shadow-sm">
+                      <form>
+                          <div class="mb-3">
+                              <label for="exampleInputName" class="form-label">First Name <small class="text-danger"> *</small></label>
+                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputLastName" class="form-label">Last Name<small class="text-danger"> *</small></label>
+                              <input type="text" class="form-control" id="exampleInputLastName"
+                                  aria-describedby="lastNameHelp" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address<small class="text-danger"> *</small></label>
+                              <input type="email" class="form-control" id="exampleInputEmail1"
+                                  aria-describedby="emailHelp" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password<small class="text-danger"> *</small></label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Repeat Password<small class="text-danger"> *</small></label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" required>
+                          </div>
+                          <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <!-- <button type="submit" class="btn btn-primary btn-block">Submit</button> -->
+                          <div class="d-grid gap-2">
+                            <button class="btn btn-primary btn-lg btn-block text-uppercase font-weight-bold" type="submit">Sign Up</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+          integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+          integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+      </script>
+  </body>
+</html>
